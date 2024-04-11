@@ -24,6 +24,7 @@ $ python manage.py generateproto
 ```
 
 ## Routes
+
 ### Appointments
 ```
 GET /appointments -> Retorna todos os agendamentos registrados.
