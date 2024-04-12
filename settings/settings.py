@@ -134,4 +134,5 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # GRPC
 GRPC_FRAMEWORK = {
     "ROOT_HANDLERS_HOOK": "appointments.handlers.grpc_handlers",
+      "GRPC_CHANNEL_PORT": 50053,
 }
