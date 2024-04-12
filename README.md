@@ -1,6 +1,6 @@
 # MedSchedule Microservice API 
 
-Using Django Rest Framework with PostgreSQL
+Using Django Rest Framework, Django Socio Grpc with PostgreSQL
 
 ## Running the app 
 
