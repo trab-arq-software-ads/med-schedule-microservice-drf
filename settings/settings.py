@@ -81,7 +81,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
         "NAME": "med-schedule-drf",
         "USER": "postgres",
-        "PASSWORD": "postgres",
+        "PASSWORD": "3214",
         "HOST": "127.0.0.1",
         "DATABASE_PORT": "5432",
         "OPTIONS": {
