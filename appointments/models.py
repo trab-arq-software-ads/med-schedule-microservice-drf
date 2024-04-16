@@ -5,8 +5,8 @@ class Appointment(models.Model):
     doctor_id = models.IntegerField()
     patient_id = models.IntegerField()
     date = models.DateTimeField()
-    symptoms = models.TextField()
-    diagnosis = models.TextField()
+    symptoms = models.TextField(blank=True, null=True)
+    diagnosis = models.TextField(blank=True, null=True)
 
     class Meta:
         verbose_name = "Agendamento"
